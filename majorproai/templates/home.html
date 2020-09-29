@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CatnDogClassifier
+        </title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+    body {
+ background-image: url("https://storage.googleapis.com/petbacker/images/blog/2017/dog-and-cat-cover.jpg");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+        </style>
+    </head>
+    <body>
+        <div>
+            <img src="https://www.i-programmer.info/images/stories/News/2017/Oct/B/tmbanner.JPG" alt="logo" style="position: relative; padding-left:500px; padding-right:460;">
+        </div>
+        <br><br>
+        <div>
+            <p style="background-color:burlywood;margin-left:320px;font-family:Lucida Sans; font-size:20px; color:brown">Click This Button Below to start the Webcam and then press 's' to save the image and 'q' to quit</p>
+            <img style="position: relative; padding-left: 680px;  height:50px; width:50px;"src="https://conceptdraw.com/a1722c3/p11/preview/640/pict--webcam-hardware-vector-stencils-library" alt="webcam"><br>
+            <button style="position:fixed;margin-left:660px; width:100px;"onclick="location.href = '{%url 'script' %}'">Start Webcam</button><hr>
+        <p>
+            The Predicted Output is {{output}} <!-- saving the output --> 
+        {% if output == "Dog" %}
+            
+            <div class="w3-light-grey w3-large">
+            <div class="w3-green" style="height:24px;border-width:200px; width:99%"></div>
+            </div><br>
+        {% endif %}
+        </p>
+            
+        </div>
+    </body>
+</html>
