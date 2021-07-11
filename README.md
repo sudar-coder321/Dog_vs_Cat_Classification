@@ -4,7 +4,7 @@
 
 ## Technologies Used:
 
-(i) Django - an MVT architecture based backend framework.
+(i) Django - an MVT(Model View Template) architecture based backend framework.
 (ii) HTML, CSS and JS - for frontend
 
 [Django official Docs](https://www.djangoproject.com/)
