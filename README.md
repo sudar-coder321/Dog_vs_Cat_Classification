@@ -1,6 +1,6 @@
 # Classification-of-Dog-and-Cat
 
---> a Web App to classify Dogs and Cats based on Image input taken from Webcam using a UI interface
+#### a Web App to classify Dogs and Cats based on Image input taken from Webcam using a UI interface
 
 ## Technologies Used:
 
